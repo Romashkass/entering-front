@@ -72,7 +72,7 @@ describe('AlgoService', () => {
 
   it('not numbers', (done) => {
     let inputStr = 'a s d';
-    let expected = 'Wrong numbers';
+    let expected = 'For input string: "a"';
     service.useAlgorithm(inputStr).subscribe(
       (response) => {
       },

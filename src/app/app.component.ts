@@ -26,7 +26,7 @@ export class AppComponent {
           this.result = response;
         },
         (error) => {  
-          this.error = error.error;
+          this.error = 'Error: ' + error.error;
           console.error(error);
         }
       );

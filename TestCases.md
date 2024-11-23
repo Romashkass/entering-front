@@ -39,7 +39,7 @@ Execution:
 1. В поле ввести "3 1 2 5"
 2. Нажать кнопку "Submit"
 Expected:
-- Появляется красная надпись "Should be exactly 3 arguments"
+- Появляется красная надпись "Error: Should be exactly 3 arguments"
 
 ##### #5 Ввести слишком мало аргументов
 Precondition:
@@ -49,7 +49,7 @@ Execution:
 1. В поле ввести "3 1"
 2. Нажать кнопку "Submit"
 Expected:
-- Появляется красная надпись "Should be exactly 3 arguments"
+- Появляется красная надпись "Error: Should be exactly 3 arguments"
 
 ##### #6 Ввести не числовые аргументы
 Precondition:
@@ -59,4 +59,4 @@ Execution:
 1. В поле ввести "a s d"
 2. Нажать кнопку "Submit"
 Expected:
-- Появляется красная надпись "Wrong numbers"
+- Появляется красная надпись "Error: For input string: "a""
